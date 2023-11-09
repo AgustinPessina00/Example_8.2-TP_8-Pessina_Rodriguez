@@ -11,7 +11,9 @@
 
 void lightLevelControlInit();
 void lightLevelControlUpdate();
-float lightLevelControlRead();
+float lightLevelControlReadR();
+float lightLevelControlReadG();
+float lightLevelControlReadB();
 
 //=====[#include guards - end]=================================================
 
