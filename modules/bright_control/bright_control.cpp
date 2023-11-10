@@ -12,13 +12,13 @@
 
 //=====[Declaration and initialization of public global objects]===============
 
+//=====[Declaration and initialization of private global objects]===============
+
 /*  GRUPO:  Pines que se utilizan. Se declaran como objetos que instancian la clase PwmOut. Se utilizará para controlar
             el brillo de cada RGB.
 
 */
 PwmOut RGBLed[] = {(PB_4), (PA_0), (PD_12)};
-
-//=====[Declaration and initialization of private global objects]===============
 
 //=====[Declaration of external public global variables]=======================
 
